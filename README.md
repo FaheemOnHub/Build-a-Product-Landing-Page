@@ -2,9 +2,9 @@
 
 
 
-                                                                               [Build a Product Landing Page]
+                                      [Build a Product Landing Page]
 
-[LIVE](https://faheemonhub.github.io/News-homepage/)
+                                         [LIVE](https://faheemonhub.github.io/Build-a-Product-Landing-Page/)
 
 Solution for a challenge from FreeCodeCamp
 
