@@ -1,0 +1,147 @@
+html,body {
+    width:100%;
+    height:100%;
+    background-color:#eee;
+    position:relative;
+  }
+  #header {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    position:fixed;
+    top:0%;
+    width:100%;
+    min-height:70px;
+    background-color:#eee;
+  }
+  #nav-bar {
+    display:flex;
+    flex-direction:row;
+    gap:vw;
+    justify-content:space-around;
+  }
+  
+  #header img {
+    max-width:250px;
+  }
+  form {
+  }
+  .email-div {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin-top:12vw;
+  }
+  #email {
+    padding:1.2vw;
+    width:85%;
+  }
+  .btn {
+    position:relative;
+    margin-top:3vw;
+    margin-left:30%;
+    padding:1vw 3vw;
+    font-size:16px;
+    font-weight:bold;
+    background-color:orange;
+    cursor:pointer;
+  }
+  .section-1 {
+    display:flex;
+    flex-direction:column;
+  }
+  .features {
+    display:flex;
+    flex-direction:column;
+  }
+  .row {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    gap:5vw;
+  }
+  #video {
+  position:relative;
+  left:35%;
+  top:5vw;
+  height:315px;
+  width:450px;
+  background-image:url("https://i.ytimg.com/vi_webp/y8Yv4pnO7qc/maxresdefault.webp");
+  background-position:center;
+  background-repeat:no-repeat;
+  }
+  .pricing {
+    display:flex;
+    flex-direction:row;
+    gap:4vw;
+    margin-top:10vw;
+    justify-content:center;
+    align-items:center;
+  }
+  .box {
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      border:2px solid black;
+      }
+  
+  #text-below {
+  }
+  .head-below {
+    background-color:#ddd;
+  }
+  .price-below {
+    font-size:28px;
+    font-weight:bold;
+  }
+  .btn-below {
+    padding:1vw 3vw;
+    margin-bottom:1vw;
+    font-size:16px;
+    font-weight:bold;
+    background-color:orange;
+    cursor:pointer;
+  }
+  .fotter {
+      margin-top: 30px;
+      background-color: #ddd;
+      padding: 20px;
+      display:flex;
+      flex-direction:column;
+    }
+    .fotter-links {
+      display:flex;
+      flex-direction:row;
+      justify-content:flex-end;
+    }
+    .copyright {
+      display:flex;
+      justify-content:flex-end;
+    }
+  @media (max-width:386px)
+  {
+    .pricing {
+    display:flex;
+    flex-direction:row;
+    gap:4vw;
+    margin-top:10vw;
+    justify-content:initial;
+    align-items:center;
+    width:100px;
+  }
+  
+  #video {
+  position:relative;
+  left:35%;
+  top:5vw;
+  height:200px;
+  width:200px;
+  background-image:url("https://i.ytimg.com/vi_webp/y8Yv4pnO7qc/maxresdefault.webp");
+  background-position:center;
+  background-repeat:no-repeat;
+  }
+  }
